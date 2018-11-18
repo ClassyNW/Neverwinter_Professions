@@ -17,6 +17,16 @@
 			background-color: goldenrod;
 			margin: 1px;
 		}
+		.recipeLevel
+		{
+			background-color: yellow;
+			font-size: 0.7em;
+			margin: 1px;
+		}
+		th > span.recipeLevel
+		{
+			float: right;
+		}
 		.recipeName
 		{
 			cursor: pointer;
@@ -110,7 +120,12 @@
 		}
 		html += ">";
 		html += "<tr><th class='recipeSource' colspan='" + columns + "'>" +
-								 recipe.Source + "</th></tr>";
+								 recipe.Source;
+		if (recipe.Level != '')
+		{
+			html += "<span class='recipeLevel'>" + recipe.Level + "</span>";
+		}
+		html += "</th></tr>";
 		html += "<tr><th colspan='" + columns + "'>" +
 								 recipe.Name + "</th></tr>";
 		html += "<tr>";
@@ -132,7 +147,7 @@
 
 		// Treat sources that don't involve recipes as special
 		var fromProfessionVendor = false;
-		var fromGathering = false;
+		var gatheringLevel = 0;
 		for (var i = recipes.length-1; i >= 0; i--)
 		{
 			if (recipes[i].Source == "Profession Vendor")
@@ -142,14 +157,15 @@
 			}
 			else if (recipes[i].Source == "Gathering")
 			{
-				fromGathering = true;
+				gatheringLevel = recipes[i].Level;
 				recipes.splice(i, 1);
 			}
 		}
 		html += "<span class='ingredientName'>" + ingredient.Quantity + "x " + ingredientName + "</span>";
-		if (fromGathering)
+		if (gatheringLevel > 0)
 		{
-			html += "<span class='recipeSource'>Gathering</span>";
+			html += "<span class='recipeSource'>Gathering" + 
+			        "<span class='recipeLevel'>" + gatheringLevel + "</span></span>";
 		}
 		if (fromProfessionVendor)
 		{
