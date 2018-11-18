@@ -1,0 +1,145 @@
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"
+			type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+		table
+		{
+			border: 1px solid black;
+			boder-collapse: collapse;
+		}
+		.recipeSource
+		{
+			background-color: goldenrod;
+			margin: 1px;
+		}
+		.recipeName
+		{
+			cursor: pointer;
+			color: blue;
+		}
+	</style>
+</head>
+<body>
+<p id="DebugText"></p>
+<table style="float:left">
+	<tbody id="AllItems">
+		<tr><th>Source</th><th>Level</th><th>Item</th></tr>
+	</tbody>
+</table>
+
+<script type="text/javascript">
+	function ParseCsv(csvText)
+	{
+		var lines = csvText.split('\n');
+		$('#DebugText').text('Read ' + lines.length + ' lines')
+		var allRecipes = new Array();
+		// First line is header, start with second line
+		for (var i = 1; i < lines.length; i++)
+		{
+			var fields = lines[i].split(',');
+			if (fields.length < 3) { continue; }
+			var recipe = { Source: fields[0],
+						   Level: fields[1],
+						   Name: fields[2] };
+			recipe.Ingredients = new Array();
+			if ((fields.length >= 5) && (fields[3].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[3], Quantity: fields[4] });
+			}
+			if ((fields.length >= 7) && (fields[5].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[5], Quantity: fields[6] });
+			}
+			if ((fields.length >= 9) && (fields[7].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[7], Quantity: fields[8] });
+			}
+			if ((fields.length >= 11) && (fields[9].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[9], Quantity: fields[10] });
+			}
+			allRecipes.push(recipe);
+		}
+		return allRecipes;
+	}
+	var AllRecipes;
+    $.get({url: 'Recipes.csv', dataType: 'text'}, 
+	).done(function(csv)
+        {
+			AllRecipes = ParseCsv(csv);
+			var table = $('#AllItems');
+			var newRows = '';
+			for (var i = 0; i < AllRecipes.length; i++)
+			{
+				newRows += '<tr><td class="source">' + AllRecipes[i].Source +
+						   '</td><td class="level">' + AllRecipes[i].Level +
+						   '</td><td class="recipeName">' + AllRecipes[i].Name + '</td></tr>';
+			}
+			table.append(newRows);
+			$('.recipeName').click(DisplayRecipe);
+        }
+    ).fail(function()
+        {
+            $('#DebugText').text('Recipe Data not loaded')
+        }
+    );
+	function GetRecipes(recipeName)
+	{
+		var sources = new Array();
+		for (var i = 0; i < AllRecipes.length; i++)
+		{
+			if (AllRecipes[i].Name == recipeName)
+			{
+				sources.push(AllRecipes[i]);
+			}
+		}
+		return sources;
+	}
+	function BuildRecipeTable(recipe)
+	{
+		var columns = recipe.Ingredients.length * 2;
+		var html = "<table style='float:left'>";
+		html += "<tr><th class='recipeSource' colspan='" + columns + "'>" +
+								 recipe.Source + "</th></tr>"
+		html += "<tr><th colspan='" + columns + "'>" +
+								 recipe.Name + "</th></tr>"
+		html += "<tr>";
+		for (var i = 0; i < recipe.Ingredients.length; i++)
+		{
+			var ingredient = recipe.Ingredients[i];
+			var ingredientName = ingredient.Name;
+			var recipes = GetRecipes(ingredientName);
+			html += "<td>";
+			html += ingredient.Quantity + "x"
+			html += "</td>";
+			html += "<td><span class='recipeName'>"
+			html += ingredientName;
+			html += "</span>";
+			for (var j = 0; j < recipes.length; j++)
+			{
+				html += "<span class='recipeSource'>";
+				html += recipes[j].Source;
+				html += "</span>";
+			}
+			html += "</td>";
+		}
+		html += "</tr>"
+		return html;
+	}
+	function DisplayRecipe()
+	{
+		var recipeName = $(this)[0].innerText;
+		var recipes = GetRecipes(recipeName);
+		for (var i = 0; i < recipes.length; i++)
+		{
+			var htmlString = BuildRecipeTable(recipes[i]);
+			var html = $(htmlString);
+			$('body').append(html);
+			var recipeNames = html.find('.recipeName');
+			recipeNames.click(DisplayRecipe);
+		}
+	}
+</script>
+</body>
+</html>
