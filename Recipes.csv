@@ -217,38 +217,117 @@ Armorsmithing,70,Major Defense Armor Kit,Adamantine Plate,2,Drake Leather,1,Drak
 Armorsmithing,70,Major Hit Points Armor Kit,Adamantine Rings,4,Drake Leather,1,Shimmerweave Thread,1,Enhanced Superior Fortification Potion,3
 Artificing,1,Maple Lumber,Maple Log,3,,,,,,
 Artificing,2,Rag Paper,Cotton Boll,2,,,,,,
+Artificing,3,Maple Bow,Maple Lumber,2,Leather,1,Animal Sinew,1,,
+Artificing,4,Leather Grimoire,Leather,1,Rag Paper,1,Pauper's Ink,1,,
 Artificing,5,Simple Index,Pauper's Ink,1,Rag Paper,1,,,,
+Artificing,6,Copper Orb,Copper Ingot,3,Simple Index,1,,,,
 Artificing,6,Maple Bucket,Maple Lumber,2,Bronze Ingot,1,Bone Glue,1,,
+Artificing,7,Maple Icon,Maple Lumber,2,Simple Index,1,,,,
+Artificing,8,Maple Symbol,Maple Lumber,2,Cotton Yarn,1,Simple Index,1,,
+Artificing,9,Copper Talisman,Copper Ingot,1,Animal Sinew,1,Simple Index,1,,
 Artificing,9,Maple Picatrix,Maple Lumber,1,Rag Paper,1,Pauper's Ink,1,,
+Artificing,10,Copper Baselard,Copper Ingot,2,Maple Lumber,1,Simple Index,1,,
+Artificing,10,Maple Crossbow,Maple Lumber,2,Bronze Ingot,1,Animal Sinew,1,,
+Artificing,11,Brassplated Baselard,Brass Ingot,1,Copper Baselard,1,,,,
+Artificing,11,Decorated Maple Rod,Maple Lumber,2,Copper Ingot,1,Cotton Cloth,1,,
+Artificing,12,Copper Icon,Copper Ingot,2,Simple Index,1,,,,
+Artificing,12,Decorated Leather Grimoire,Copper Ingot,1,Leather Grimoire,1,,,,
+Artificing,13,Fanged Talisman,Beast Fang,1,Cotton Yarn,1,Simple Index,1,,
+Artificing,14,Maple Longbow,Maple Lumber,3,Leather,1,Animal Sinew,1,,
+Artificing,15,Polished Copper Orb,Sandstone Whetstone,1,Copper Orb,1,,,,
 Artificing,16,Ash Lumber,Ash Log,3,,,,,,
 Artificing,17,Cypren Index,Pauper's Ink,1,Copper Sand,1,Rag Paper,1,,
+Artificing,18,Ash Icon,Ash Lumber,2,Cypren Index,1,,,,
+Artificing,18,Brass Orb,Brass Ingot,2,Sandstone Whetstone,1,Cypren Index,1,,
 Artificing,19,Ash Crossbow,Ash Lumber,2,Iron Ingot,1,Deer Sinew,1,,
+Artificing,19,Brass Scepter,Brass Ingot,2,White Pearl,1,,,,
+Artificing,20,Ash Longbow,Ash Lumber,3,Deer Leather,1,Deer Sinew,1,,
+Artificing,20,Brass Stiletto,Brass Ingot,2,Linen Cloth,1,Cypren Index,1,,
 Artificing,21,Ash Picatrix,Ash Lumber,1,Rag Paper,1,Pauper's Ink,1,Copper Sand,1
+Artificing,21,Deerskin Grimoire,Deer Leather,1,Rag Paper,1,Pauper's Ink,1,Copper Sand,1
 Artificing,22,Ash Bucket,Ash Lumber,2,Iron Ingot,1,Antler Glue,1,,
+Artificing,22,Brass Talisman,Brass Ingot,1,Linen Cloth,1,Cypren Index,1,,
+Artificing,23,Brass Icon,Brass Ingot,2,Sandstone Whetstone,1,Cypren Index,1,,
+Artificing,24,Brass Rod,Brass Ingot,2,Iron Ingot,1,Cypren Index,1,,
+Artificing,25,Hartshorn Kris,Deer Antler,2,Linen Cloth,1,Antler Glue,1,Cypren Index,1
+Artificing,25,Peridot Focus,Peridot,1,Siltstone Whetstone,1,Cypren Index,1,,
+Artificing,26,Decorated Deerskin Grimoire,Brass Ingot,1,Deerskin Grimoire,1,,,,
+Artificing,27,Ash Composite Bow,Ash Lumber,2,Deer Antler,1,Linen Cloth,1,Deer Sinew,1
+Artificing,27,Hartshorn Talisman,Deer Antler,1,Linen Yarn,1,Cypren Index,1,,
 Artificing,28,Elm Lumber,Elm Log,3,,,,,,
 Artificing,28,Scribe's Parchment,Elm Log,1,Flax,2,,,,
 Artificing,29,Argent Index,Pauper's Ink,1,Silver Sand,1,Scribe's Parchment,1,,
 Artificing,30,Elm Crossbow,Elm Lumber,2,Steel Ingot,1,Wolf Sinew,1,,
+Artificing,30,Elm Icon,Elm Lumber,2,Argent Index,1,,,,
+Artificing,31,Elm Sphere,Elm Lumber,2,Linseed Oil,1,Argent Index,1,,
+Artificing,31,Silver Talisman,Silver Ingot,1,Wolf Sinew,1,Argent Index,1,,
+Artificing,32,Silver Stiletto,Silver Ingot,1,Deer Antler,1,Brass Ingot,1,Argent Index,1
+Artificing,32,Wolfskin Grimoire,Wolf Leather,1,Scribe's Parchment,1,Pauper's Ink,1,Silver Sand,1
+Artificing,33,Elm Composite Bow,Elm Lumber,2,Deer Antler,1,Wolf Leather,1,Wolf Sinew,1
 Artificing,33,Elm Picatrix,Elm Lumber,1,Scribe's Parchment,1,Pauper's Ink,1,Silver Sand,1
 Artificing,34,Elm Bucket,Elm Lumber,2,Steel Ingot,1,Antler Glue,1,,
+Artificing,34,Silver Rod,Silver Ingot,2,Brass Ingot,1,Argent Index,1,,
+Artificing,35,Silver Baselard,Silver Ingot,1,Brass Ingot,1,Wolf Leather,1,Argent Index,1
+Artificing,36,Silver Symbol,Silver Ingot,2,Siltstone Whetstone,1,Wool Yarn,1,Argent Index,1
+Artificing,37,Polished Silver Talisman,Siltstone Whetstone,2,Silver Talisman,1,,,,
+Artificing,37,Silver Icon,Silver Ingot,1,Siltstone Whetstone,1,Argent Index,1,,
+Artificing,38,Silverleaf Grimoire,Silver Sand,1,Fish Glue,1,Wolfskin Grimoire,1,,
+Artificing,39,Elm Longbow,Elm Lumber,3,Wolf Leather,1,Wolf Sinew,1,,
+Artificing,40,Silvered Peridot Focus,Silver Ingot,1,Peridot,1,Argent Index,1,,
 Artificing,41,Yew Lumber,Yew Log,3,,,,,,
 Artificing,42,Mithrus Index,Parchment,1,Pauper's Ink,1,Mithral Sand,1,,
 Artificing,42,Parchment,Yew Log,1,Elm Log,1,Flax,2,,
 Artificing,43,Yew Crossbow,Yew Lumber,2,Mithral Ingot,1,Bear Sinew,1,,
+Artificing,43,Yew Icon,Yew Lumber,2,Mithrus Index,1,,,,
+Artificing,44,Aquamarine Focus,Mithral Ingot,1,Silver Ingot,1,Aquamarine,1,Mithrus Index,1
+Artificing,44,Mithral Talisman,Mithral Ingot,1,Bear Sinew,1,Mithrus Index,1,,
+Artificing,46,Bearskin Grimoire,Bear Leather,1,Parchment,1,Pauper's Ink,1,Silver Sand,1
+Artificing,46,Mithral Ceremonial Knife,Mithral Ingot,1,Velveteen Cloth,1,Fish Glue,1,Mithrus Index,1
+Artificing,47,Yew Longbow,Yew Lumber,2,Mithral Ingot,1,Velveteen Cloth,1,Bear Sinew,1
 Artificing,47,Yew Picatrix,Yew Lumber,1,Parchment,1,Pauper's Ink,1,Mithral Sand,1
+Artificing,48,Mithral Scepter,Mithral Ingot,2,Yew Lumber,1,Velveteen Cloth,1,Mithrus Index,1
 Artificing,48,Yew Bucket,Yew Lumber,2,Mithral Ingot,1,Fish Glue,1,,
+Artificing,49,Mithral Kris,Mithral Ingot,2,Bear Leather,1,Mithrus Index,1,,
+Artificing,50,Mithral Symbol,Mithral Ingot,2,Aquamarine,1,Silk Thread,1,Mithrus Index,1
+Artificing,51,Mithral Icon,Mithral Ingot,2,Mithrus Index,1,,,,
+Artificing,52,Polished Mithral Talisman,Mudstone Whetstone,2,Mithral Talisman,1,,,,
+Artificing,53,Mithraleaf Grimoire,Mithral Sand,1,Fish Glue,1,Bearskin Grimoire,1,,
+Artificing,54,Yew Composite Bow,Yew Lumber,2,Beast Horn,1,Bear Leather,1,Bear Sinew,1
+Artificing,55,Mithral Focus,Mithral Ingot,2,Aquamarine,1,Mudstone Whetstone,1,Mithrus Index,1
 Artificing,56,Walnut Lumber,Walnut Log,3,,,,,,
 Artificing,57,Amber Index,Parchment,1,Pauper's Ink,1,Electrum Sand,1,,
 Artificing,58,Walnut Bucket,Walnut Lumber,2,Blackiron Ingot,1,Fish Glue,1,,
+Artificing,58,Walnut Icon,Walnut Lumber,2,Amber Index,1,,,,
 Artificing,59,Walnut Crossbow,Walnut Lumber,2,Blackiron Ingot,1,Aberrant Sinew,1,,
+Artificing,59,Walnut Shortbow,Walnut Lumber,2,Aberrant Leather,1,Fish Glue,1,Aberrant Sinew,1
+Artificing,60,Electrum Pactblade,Electrum Ingot,2,Aberrant Leather,1,Amber Index,1,,
+Artificing,60,Electrum Symbol,Electrum Ingot,2,Silver Ingot,1,Silk Thread,1,Amber Index,1
 Artificing,60,Greater Recovery Armor Kit,Amber Index,1,Silk Cloth,1,Silk Thread,1,Major Tidespan Potion,
+Artificing,61,Electrum Talisman,Electrum Ingot,1,Silk Thread,1,Amber Index,1,,
 Artificing,62,Walnut Picatrix,Walnut Lumber,1,Parchment,1,Pauper's Ink,1,Electrum Sand,1
+Artificing,63,Electrum Focus,Electrum Ingot,1,Aquamarine,1,Amber Index,1,,
+Artificing,63,Farskin Grimoire,Aberrant Leather,1,Parchment,1,Pauper's Ink,1,Electrum Sand,1
+Artificing,64,Electrum Scepter,Electrum Ingot,2,White Pearl,3,Aberrant Leather,1,Amber Index,1
+Artificing,64,Horned Talisman,Beast Horn,1,Aberrant Sinew,1,Amber Index,1,,
+Artificing,65,Electrum Trinity,Electrum Ingot,3,Amber Index,1,,,,
+Artificing,65,Horned Kris,Beast Horn,2,Silk Cloth,1,Horn Glue,1,Amber Index,1
+Artificing,66,Amberleaf Grimoire,Electrum Sand,1,Horn Glue,1,Farskin Grimoire,1,,
+Artificing,67,Electrum Icon,Electrum Ingot,2,Amber Index,1,,,,
+Artificing,67,Walnut Longbow,Walnut Lumber,3,Electrum Ingot,1,Aberrant Leather,1,Aberrant Sinew,1
 Artificing,68,Oak Lumber,Oak Log,3,,,,,,
 Artificing,69,Aureus Index,Fine Parchment,1,Black Ink,1,Gold Sand,1,,
 Artificing,69,Fine Parchment,Oak Lumber,1,Walnut Lumber,1,Flax,1,,
+Artificing,70,Drakehorn Pactblade,Drake Horn,2,Drake Leather,1,Horn Glue,1,Aureus Index,1
+Artificing,70,Drakeskin Grimoire,Drake Leather,1,Fine Parchment,1,Black Ink,1,Gold Sand,1
+Artificing,70,Gold Armilla,Raw Gold Ingot,2,Flawless Sapphire,1,Aureus Index,1,,
+Artificing,70,Gold Symbol,Raw Gold Ingot,1,Adamantine Ingot,1,Shimmerweave Thread,1,Aureus Index,1
+Artificing,70,Gold Talisman,Raw Gold Ingot,1,Drake Sinew,1,Aureus Index,1,,
 Artificing,70,Oak Bucket,Oak Lumber,2,Adamantine Ingot,1,Horn Glue,1,,
+Artificing,70,Oak Composite Bow,Oak Lumber,3,Drake Horn,1,Drake Hide,1,Drake Sinew,1
 Artificing,70,Oak Crossbow,Oak Lumber,2,Adamantine Ingot,1,Drake Sinew,1,,
+Artificing,70,Oak Icon,Oak Lumber,2,Aureus Index,1,,,,
 Artificing,70,Oak Picatrix,Oak Lumber,1,Fine Parchment,1,Black Ink,1,Gold Sand,1
+Artificing,70,Simple Dining Table,Oak Lumber,12,Ash Lumber,24,Beeswax,1,Iron Nails,2
 Artificing,70,Major Recovery Armor Kit,Aureus Index,1,Shimmerweave Cloth,1,Shimmerweave Thread,1,Enhanced Superior Tidespan Potion,3
 Jewelcrafting,1,Copper Ingot,Copper Ore,3,,,,,,
 Jewelcrafting,2,Sandstone Whetstone,Sandstone,2,,,,,,
@@ -274,6 +353,13 @@ Jewelcrafting,70,Gold Needle,Raw Gold Ingot,1,Slate Whetstone,2,,,,
 Jewelcrafting,70,Major Action Point Gain Jewel,Black Opal,2,Aureus Index,1,Horn Glue,1,,
 Jewelcrafting,70,Major Regeneration Jewel,Drake Horn,2,Aureus Index,1,Horn Glue,1,,
 Jewelcrafting,70,Major Stamina Regeneration Jewel,Raw Gold Ingot,1,Aureus Index,1,Horn Glue,1,,
+Jewelcrafting,MW-I,Gold Nugget,Gold Ore,2,Rock Salt,1,,,,
+Jewelcrafting,MW-I,Gold Ingot,Gold Nugget,3,Aqua Regia,1,,,,
+Jewelcrafting,MW-I,Newly “Minted” Copper Coin,Copper Ingot,2,Aqua Fortis,1,,,,
+Jewelcrafting,MW-I,Gold Wire,Gold Ingot,2,Shark Oil,2,,,,
+Jewelcrafting,MW-I,Newly “Minted” Silver Coin,Silver Ingot,2,Aqua Fortis,1,,,,
+Jewelcrafting,MW-I,Newly “Minted” Gold Coin,Gold Ingot,1,Aqua Regia,1,,,,
+Jewelcrafting,MW-I,Set of Newly “Minted” Coins,Newly “Minted” Gold Coin,1,Newly “Minted” Silver Coin,1,Newly “Minted” Copper Coin,1,,
 Leatherworking,1,Leather,Animal Hide,3,,,,,,
 Leatherworking,16,Deer Leather,Deer Skin,2,Sword Coast Tea Leaves,1,,,,
 Leatherworking,28,Wolf Leather,Wolf Hide,2,Sword Coast Tea Leaves,1,,,,
