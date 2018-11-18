@@ -62,7 +62,7 @@
 		return allRecipes;
 	}
 	var AllRecipes;
-    $.get({url: 'Neverwinter Recipes.csv', dataType: 'text'}, 
+    $.get({url: 'Recipes.csv', dataType: 'text'}, 
 	).done(function(csv)
         {
 			AllRecipes = ParseCsv(csv);
