@@ -8,6 +8,10 @@
 			border: 1px solid black;
 			boder-collapse: collapse;
 		}
+		tr
+		{
+			vertical-align: top;
+		}
 		.recipeSource
 		{
 			background-color: goldenrod;
@@ -96,35 +100,75 @@
 		}
 		return sources;
 	}
-	function BuildRecipeTable(recipe)
+	function BuildRecipeTable(recipe, topLevel)
 	{
-		var columns = recipe.Ingredients.length * 2;
-		var html = "<table style='float:left'>";
+		var columns = recipe.Ingredients.length;
+		var html = "<table";
+		if (topLevel)
+		{
+			html += " style='float:left'";
+		}
+		html += ">";
 		html += "<tr><th class='recipeSource' colspan='" + columns + "'>" +
-								 recipe.Source + "</th></tr>"
+								 recipe.Source + "</th></tr>";
 		html += "<tr><th colspan='" + columns + "'>" +
-								 recipe.Name + "</th></tr>"
+								 recipe.Name + "</th></tr>";
 		html += "<tr>";
 		for (var i = 0; i < recipe.Ingredients.length; i++)
 		{
 			var ingredient = recipe.Ingredients[i];
-			var ingredientName = ingredient.Name;
-			var recipes = GetRecipes(ingredientName);
-			html += "<td>";
-			html += ingredient.Quantity + "x"
-			html += "</td>";
-			html += "<td><span class='recipeName'>"
-			html += ingredientName;
-			html += "</span>";
-			for (var j = 0; j < recipes.length; j++)
-			{
-				html += "<span class='recipeSource'>";
-				html += recipes[j].Source;
-				html += "</span>";
-			}
-			html += "</td>";
+			html += BuildRecipeSubTable(ingredient);
 		}
-		html += "</tr>"
+		html += "</tr>";
+		html += "</table>";
+		return html;
+	}
+	function BuildRecipeSubTable(ingredient)
+	{
+		var html = "<td>";
+
+		var ingredientName = ingredient.Name;
+		var recipes = GetRecipes(ingredientName);
+
+		// Treat sources that don't involve recipes as special
+		var fromProfessionVendor = false;
+		var fromGathering = false;
+		for (var i = recipes.length-1; i >= 0; i--)
+		{
+			if (recipes[i].Source == "Profession Vendor")
+			{
+				fromProfessionVendor = true;
+				recipes.splice(i, 1);
+			}
+			else if (recipes[i].Source == "Gathering")
+			{
+				fromGathering = true;
+				recipes.splice(i, 1);
+			}
+		}
+		html += "<span class='ingredientName'>" + ingredient.Quantity + "x " + ingredientName + "</span>";
+		if (fromGathering)
+		{
+			html += "<span class='recipeSource'>Gathering</span>";
+		}
+		if (fromProfessionVendor)
+		{
+			html += "<span class='recipeSource'>Profession Vendor</span>";
+		}
+		// If there are remaining recipes we're going to build a table,
+		// if the only sources are the vendor then no table.
+		if (recipes.length > 0)
+		{
+			html += "<table><tr>";
+			for (var i = 0; i < recipes.length; i++)
+			{
+				html += "<td>";
+				html += BuildRecipeTable(recipes[i], false)
+				html += "</td>";
+			}
+			html += "</tr></table>";
+		}		
+		html += "</td>";
 		return html;
 	}
 	function DisplayRecipe()
@@ -133,12 +177,17 @@
 		var recipes = GetRecipes(recipeName);
 		for (var i = 0; i < recipes.length; i++)
 		{
-			var htmlString = BuildRecipeTable(recipes[i]);
+			var htmlString = BuildRecipeTable(recipes[i], true);
 			var html = $(htmlString);
 			$('body').append(html);
 			var recipeNames = html.find('.recipeName');
+
 			recipeNames.click(DisplayRecipe);
+		
+			//var dbg = $('#DebugText');
+			//dbg.text(dbg.text() + "<br/>" + htmlString);
 		}
+		
 	}
 </script>
 </body>
