@@ -78,7 +78,7 @@
 					var usesIng = rcp.Ingredients.find(function(rcp2) { return rcp2.Name == recipeName });
 					return typeof usesIng != 'undefined';
 				});
-				newRows += dependent.map(function(r) { return r.Name }).join(',');
+				newRows += dependent.map(function(r) { return r.Name }).join(', ');
 				newRows += '</td></tr>';
 			}
 			table.append(newRows);
