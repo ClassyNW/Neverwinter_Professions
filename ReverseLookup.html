@@ -1,0 +1,105 @@
+<html>
+<head>
+    <script src="jquery-3.3.1.min.js"
+			type="text/javascript" charset="utf-8"></script>
+	<style type="text/css">
+		table
+		{
+			border: 1px solid black;
+			border-collapse: collapse;
+		}
+		td
+		{
+			border: 1px dashed gray;
+		}
+		.recipeSource
+		{
+			background-color: goldenrod;
+		}
+	</style>
+</head>
+<body>
+<p id="DebugText"></p>
+<table style="float:left">
+	<tbody id="AllItems">
+		<tr><th>Source</th><th>Level</th><th>Item</th><th>Neede By</th></tr>
+	</tbody>
+</table>
+
+<script type="text/javascript">
+	function ParseCsv(csvText)
+	{
+		var lines = csvText.split('\n');
+		$('#DebugText').text('Read ' + lines.length + ' lines')
+		var allRecipes = new Array();
+		// First line is header, start with second line
+		for (var i = 1; i < lines.length; i++)
+		{
+			var fields = lines[i].split(',');
+			if (fields.length < 3) { continue; }
+			var recipe = { Source: fields[0],
+						   Level: fields[1],
+						   Name: fields[2] };
+			recipe.Ingredients = new Array();
+			if ((fields.length >= 5) && (fields[3].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[3], Quantity: fields[4] });
+			}
+			if ((fields.length >= 7) && (fields[5].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[5], Quantity: fields[6] });
+			}
+			if ((fields.length >= 9) && (fields[7].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[7], Quantity: fields[8] });
+			}
+			if ((fields.length >= 11) && (fields[9].length > 0))
+			{
+				recipe.Ingredients.push({ Name: fields[9], Quantity: fields[10] });
+			}
+			allRecipes.push(recipe);
+		}
+		return allRecipes;
+	}
+	var AllRecipes;
+    $.get({url: 'Neverwinter Recipes.csv', dataType: 'text'}, 
+	).done(function(csv)
+        {
+			AllRecipes = ParseCsv(csv);
+			var table = $('#AllItems');
+			var newRows = '';
+			for (var i = 0; i < AllRecipes.length; i++)
+			{
+				var recipeName = AllRecipes[i].Name;
+				newRows += '<tr><td class="source">' + AllRecipes[i].Source +
+						   '</td><td class="level">' + AllRecipes[i].Level +
+						   '</td><td class="recipeName">' + recipeName + '<td>';
+				var dependent = AllRecipes.filter(function(rcp) {
+					var usesIng = rcp.Ingredients.find(function(rcp2) { return rcp2.Name == recipeName });
+					return typeof usesIng != 'undefined';
+				});
+				newRows += dependent.map(function(r) { return r.Name }).join(',');
+				newRows += '</td></tr>';
+			}
+			table.append(newRows);
+        }
+    ).fail(function()
+        {
+            $('#DebugText').text('Recipe Data not loaded')
+        }
+    );
+	function GetRecipes(recipeName)
+	{
+		var sources = new Array();
+		for (var i = 0; i < AllRecipes.length; i++)
+		{
+			if (AllRecipes[i].Name == recipeName)
+			{
+				sources.push(AllRecipes[i]);
+			}
+		}
+		return sources;
+	}
+</script>
+</body>
+</html>
