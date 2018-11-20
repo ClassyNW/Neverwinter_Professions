@@ -53,8 +53,17 @@
 		// First line is header, start with second line
 		for (var i = 1; i < lines.length; i++)
 		{
+			// Simple split() will break if we ever have fields with commas inside them.
 			var fields = lines[i].split(',');
 			if (fields.length < 3) { continue; }
+			for (var j = 0; j < fields.length; j++)
+			{
+				if ((fields[j].length >= 2) && fields[j].startsWith('"') && fields[j].endsWith('"'))
+				{
+					// TBD: Anything else to unescape in quoted strings?
+					fields[j] = fields[j].substring(1, fields[j].length - 1).replace(/""/g, '"');
+				}
+			}
 			var recipe = { Source: fields[0],
 						   Level: fields[1],
 						   Name: fields[2] };
