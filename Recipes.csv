@@ -418,35 +418,211 @@ Jewelcrafting,MW-I,"Newly ""Minted"" Silver Coin",Silver Ingot,2,Aqua Fortis,1,,
 Jewelcrafting,MW-I,"Newly ""Minted"" Gold Coin",Gold Ingot,1,Aqua Regia,1,,,,
 Jewelcrafting,MW-I,"Set of Newly ""Minted"" Coins","Newly ""Minted"" Gold Coin",1,"Newly ""Minted"" Silver Coin",1,"Newly ""Minted"" Copper Coin",1,,
 Leatherworking,1,Leather,Animal Hide,3,,,,,,
+Leatherworking,2,Leather Visor,Leather,2,,,,,,
+Leatherworking,3,Leather Shoes,Leather,1,Cotton Yarn,1,,,,
+Leatherworking,4,Leather Boots,Leather,2,Animal Sinew,1,,,,
+Leatherworking,5,Leather Belt,Leather,1,Bronze Ingot,1,,,,
+Leatherworking,6,Leather Pants,Leather,2,Cotton Yarn,1,,,,
+Leatherworking,7,Leather Halfgloves,Leather,1,Cotton Cloth,1,Animal Sinew,1,,
+Leatherworking,8,Leather Shirt,Cotton Cloth,1,Leather,1,Cotton Yarn,1,,
+Leatherworking,10,Leather Vest,Leather,3,Animal Sinew,1,,,,
+Leatherworking,11,Leather Armguards,Leather,2,Cotton Cloth,1,Bronze Ingot,1,,
+Leatherworking,11,Leather Halfboots,Leather,1,Cotton Boll,1,Cotton Yarn,1,,
+Leatherworking,12,Hard Leather Belt,Leather,1,Bronze Ingot,1,Animal Sinew,1,,
+Leatherworking,13,Leather Jerkin,Leather,3,Animal Sinew,1,Bronze Ingot,1,,
+Leatherworking,14,Padded Hood,Cotton Cloth,1,Leather,1,Animal Sinew,1,,
+Leatherworking,15,Hard Leather Boots,Leather,2,Bronze Ingot,1,Animal Sinew,1,,
 Leatherworking,16,Deer Leather,Deer Skin,2,Sword Coast Tea Leaves,1,,,,
+Leatherworking,17,Deerskin Armguards,Deer Leather,2,Iron Ingot,1,,,,
+Leatherworking,17,Deerskin Shirt,Deer Leather,1,Cotton Cloth,1,Linen Yarn,1,,
+Leatherworking,18,Deerskin Boots,Deer Leather,2,Deer Sinew,1,,,,
+Leatherworking,19,Deerskin Belt,Deer Leather,1,Iron Ingot,1,,,,
+Leatherworking,19,Deerskin Pants,Deer Leather,2,Linen Yarn,1,,,,
+Leatherworking,20,Deerskin Mask,Deer Leather,1,Linen Cloth,1,Linen Yarn,1,,
+Leatherworking,20,Deerskin Halfboots,Deer Leather,1,Cotton Boll,1,Linen Yarn,1,,
+Leatherworking,22,Deerskin Jerkin,Deer Leather,2,Bronze Rings,1,Deer Sinew,1,,
+Leatherworking,23,Deerskin Visor,Deer Leather,1,Linen Cloth,1,Antler Glue,1,,
+Leatherworking,24,Deerskin Longboots,Deer Leather,2,Linen Yarn,1,Deer Sinew,1,,
+Leatherworking,24,Deerskin Shoes,Deer Leather,1,Linen Cloth,1,Deer Sinew,1,,
+Leatherworking,25,Reinforced Deerskin Belt,Deer Leather,1,Iron Ingot,1,Deer Sinew,1,,
+Leatherworking,26,Deerskin Bracers,Deer Leather,2,Iron Ingot,1,Deer Sinew,1,,
+Leatherworking,27,Deerskin Jacket,Deer Leather,2,Iron Ingot,1,Linen Cloth,1,Deer Sinew,1
 Leatherworking,28,Wolf Leather,Wolf Hide,2,Sword Coast Tea Leaves,1,,,,
+Leatherworking,29,Wolfskin Shirt,Wolf Leather,1,Wool Cloth,1,Wool Yarn,1,,
+Leatherworking,30,Wolfskin Belt,Wolf Leather,2,Steel Ingot,1,,,,
+Leatherworking,31,Wolfskin Halfboots,Wolf Leather,1,Fleece,2,Wool Yarn,1,,
+Leatherworking,31,Wolfskin Longboots,Wolf Leather,2,Steel Ingot,1,Wolf Sinew,1,,
+Leatherworking,32,Wolfskin Jacket,Wolf Leather,2,Wool Cloth,2,Wolf Sinew,1,,
+Leatherworking,32,Wolfskin Pants,Wolf Leather,2,Wool Yarn,1,,,,
+Leatherworking,33,Wolfskin Cowl,Wolf Leather,1,Wool Cloth,2,Wolf Sinew,1,,
+Leatherworking,34,Wolfskin Bracers,Wolf Leather,1,Wool Cloth,1,Wolf Sinew,1,Wool Yarn,1
+Leatherworking,35,Wolfskin Visor,Wolf Leather,2,Wool Cloth,1,Wolf Sinew,1,,
+Leatherworking,37,Wolfskin Jerkin,Wolf Leather,2,Steel Rings,1,Wool Cloth,1,Wolf Sinew,1
+Leatherworking,37,Wolfskin Thighboots,Wolf Leather,2,Steel Ingot,1,Wool Yarn,1,,
+Leatherworking,38,Wolfskin Gaiters,Wolf Leather,1,Felt Cloth,1,Wool Yarn,1,,
+Leatherworking,38,Wolfskin Gloves,Wolf Leather,2,Steel Ingot,1,Wolf Sinew,1,,
+Leatherworking,40,Lined Wolfskin Belt,Wolf Leather,1,Felt Cloth,1,Wolf Sinew,1,,
 Leatherworking,41,Bear Leather,Bear Hide,2,Bearberry,1,,,,
+Leatherworking,42,Bearskin Hunting Hat,Bear Leather,1,Velveteen Cloth,1,Fowl Feather,1,Bear Sinew,1
+Leatherworking,43,Bearskin Halfboots,Bear Leather,1,Fleece,2,Bear Sinew,1,,
+Leatherworking,44,Bearskin Boots,Bear Leather,2,Steel Plate,1,Bear Sinew,1,,
+Leatherworking,45,Bearskin Belt,Bear Leather,2,Mithral Ingot,1,,,,
+Leatherworking,46,Bearskin Pants,Bear Leather,2,Wool Yarn,1,,,,
+Leatherworking,47,Bearskin Gloves,Bear Leather,2,Velveteen Cloth,1,Bear Sinew,1,,
+Leatherworking,47,Bearskin Shirt,Bear Leather,1,Velveteen Cloth,1,Wool Yarn,1,,
+Leatherworking,48,Bearskin Vest,Bear Leather,2,Velveteen Cloth,1,Mithral Ingot,1,Bear Sinew,1
+Leatherworking,50,Bearskin Jackboots,Bear Leather,1,Mithral Ingot,1,Silk Thread,1,Beeswax,1
+Leatherworking,50,Lined Bearskin Boots,Bear Leather,1,Fleece,1,Silk Thread,1,Beeswax,1
+Leatherworking,51,Bearhide Longboots,Bear Leather,2,Bear Sinew,1,Beeswax,1,,
+Leatherworking,51,Bearskin Mask,Bear Leather,2,Velveteen Cloth,1,Silk Thread,1,,
+Leatherworking,52,Reinforced Bearskin Belt,Bear Leather,1,Bear Hide,1,Mithral Ingot,1,Beeswax,1
+Leatherworking,53,Bearskin Long Gloves,Bear Leather,1,Velveteen Cloth,1,Mithral Ingot,1,Bear Sinew,1
+Leatherworking,54,Bearskin Jerkin,Bear Leather,2,Velveteen Cloth,1,Mithral Ingot,1,Bear Hide,1
+Leatherworking,54,Bearskin Jacket,Bear Leather,2,Mithral Ingot,1,Bear Hide,1,Bear Sinew,1
+Leatherworking,55,Bearhide Bracers,Bear Leather,1,Velveteen Cloth,1,Bear Sinew,1,Silk Thread,1
+Leatherworking,55,Bearhide Calot,Bear Leather,2,Mithral Ingot,1,Bear Sinew,1,,
+Leatherworking,55,Bearskin Thighboots,Bear Leather,2,Blackiron Ingot,1,Beeswax,1,,
 Leatherworking,56,Aberrant Leather,Aberrant Hide,2,Bearberry,1,,,,
+Leatherworking,57,Farskin Jackboots,Aberrant Leather,1,Blackiron Ingot,1,Silk Thread,1,Beeswax,1
+Leatherworking,57,Farskin Longboots,Aberrant Leather,1,Silk Cloth,1,Aberrant Sinew,1,Beeswax,1
+Leatherworking,57,Farskin Visor,Aberrant Leather,1,Silk Cloth,1,Horn Glue,1,Silk Thread,1
+Leatherworking,58,Farhide Belt,Aberrant Leather,2,Mithral Ingot,1,,,,
+Leatherworking,58,Farkind Visor,Aberrant Leather,1,Silk Cloth,1,Aberrant Sinew,2,,
+Leatherworking,59,Farhide Bracers,Aberrant Leather,2,Mithral Ingot,1,Aberrant Sinew,1,,
+Leatherworking,59,Farskin Pants,Aberrant Leather,2,Silk Thread,1,,,,
+Leatherworking,60,Farskin Jacket,Aberrant Leather,2,Silk Cloth,1,Aberrant Sinew,1,Silk Thread,1
+Leatherworking,60,Farskin Shirt,Aberrant Leather,1,Silk Cloth,1,Aberrant Sinew,1,,
+Leatherworking,60,Farskin Vest,Aberrant Leather,2,Blackiron Rings,1,Aberrant Sinew,1,Silk Thread,1
 Leatherworking,60,Greater Critical Strike Armor Kit,Aberrant Leather,4,Silk Cloth,1,Aberrant Sinew,1,Enhanced Superior Potion of Accuracy,3
 Leatherworking,60,Greater Deflection Armor Kit,Aberrant Leather,4,Blackiron Rings,1,Aberrant Sinew,1,Major Potion of Reflexes,3
+Leatherworking,61,Farhide Longboots,Aberrant Leather,1,Blackiron Ingot,1,Animal Sinew,1,Beeswax,1
+Leatherworking,61,Farskin Moccasins,Aberrant Leather,1,Silk Cloth,1,Silk Thread,1,Beeswax,1
+Leatherworking,62,Farskin Armguards,Aberrant Leather,2,Silk Cloth,1,Aberrant Sinew,1,,
+Leatherworking,62,Farskin Long Gloves,Aberrant Leather,2,Silk Cloth,1,Silk Thread,1,,
+Leatherworking,63,Farskin Jerkin,Aberrant Leather,2,Blackiron Rings,1,Aberrant Sinew,1,Silk Thread,1
+Leatherworking,64,Farhide Coat,Aberrant Leather,2,Silk Cloth,1,Electrum Ingot,1,Aberrant Sinew,1
+Leatherworking,64,Irontoed Farskin Thighboots,Aberrant Leather,2,Blackiron Ingot,1,Aberrant Sinew,1,,
+Leatherworking,64,Lined Farskin Boots,Aberrant Leather,1,Electrum Ingot,1,Silk Cloth,1,Beeswax,1
+Leatherworking,64,Reinforced Farhide Belt,Aberrant Leather,2,Blackiron Ingot,1,Electrum Ingot,1,,
+Leatherworking,65,Farhide Gloves,Aberrant Leather,1,Silk Cloth,1,Electrum Ingot,1,Aberrant Sinew,1
+Leatherworking,66,Farhide Thighboots,Aberrant Leather,1,Silk Cloth,1,Electrum Ingot,1,Beeswax,1
+Leatherworking,66,Farskin Thighboots,Aberrant Leather,1,Blackiron Scales,1,Aberrant Sinew,1,Beeswax,1
+Leatherworking,67,Farhide Helm,Aberrant Leather,1,Beast Horn,2,Aberrant Sinew,1,,
+Leatherworking,67,Farhide Sallet,Aberrant Leather,2,Blackiron Plate,1,Aberrant Sinew,1,,
+Leatherworking,67,Farskin Gloves,Aberrant Leather,2,Blackiron Ingot,1,Aberrant Sinew,1,,
+Leatherworking,67,Farskin Hood,Aberrant Leather,1,Silk Cloth,2,Aberrant Sinew,1,,
 Leatherworking,68,Drake Leather,Drake Hide,2,Oak Log,1,,,,
+Leatherworking,70,Drakehide Belt,Drake Leather,2,Adamantine Ingot,1,Drake Sinew,1,,
+Leatherworking,70,Drakehide Bracers,Drake Leather,2,Raw Gold Ingot,1,Drake Sinew,1,,
+Leatherworking,71,Drakehide Coat,Drake Leather,2,Drake Horn,1,Raw Gold Ingot,1,Drake Sinew,1
+Leatherworking,72,Drakehide Cowl,Drake Leather,1,Shimmerweave Cloth,2,Drake Sinew,1,,
+Leatherworking,73,Drakehide Thighboots,Drake Leather,1,Shimmerweave Cloth,1,Raw Gold Ingot,1,Beeswax,1
+Leatherworking,74,Drakeskin Boots,Drake Leather,1,Blackiron Ingot,1,Raw Gold Ingot,1,Drake Sinew,1
+Leatherworking,75,Drakeskin Gloves,Drake Leather,2,Raw Gold Ingot,1,Drake Sinew,1,,
+Leatherworking,76,Drakeskin Jacket,Drake Leather,2,Adamantine Ingot,1,Raw Gold Ingot,1,Drake Sinew,1
+Leatherworking,77,Drakeskin Mask,Drake Leather,1,Drake Horn,1,Raw Gold Ingot,1,Drake Sinew,1
+Leatherworking,78,Drakeskin Pants,Drake Leather,2,Shimmerweave Thread,1,Raw Gold Ingot,1,,
+Leatherworking,79,Drakeskin Shirt,Drake Leather,1,Shimmerweave Cloth,2,Shimmerweave Thread,1,,
+Leatherworking,80,Drakeskin Thighboots,Drake Leather,1,Raw Gold Ingot,1,Drake Sinew,1,Beeswax,1
+Leatherworking,81,Lined Drakeskin Boots,Drake Leather,1,Raw Gold Ingot,1,Shimmerweave Cloth,1,Beeswax,1
 Leatherworking,70,Major Critical Strike Armor Kit,Drake Leather,4,Shimmerweave Cloth,1,Drake Sinew,1,Enhanced Superior Potion of Accuracy,
 Leatherworking,70,Major Deflection Armor Kit,Drake Leather,4,Adamantine Rings,1,Drake Sinew,1,Enhanced Superior Potion of Reflexes,
 Tailoring,1,Cotton Yarn,Cotton Boll,3,,,,,,
 Tailoring,2,Cotton Cloth,Cotton Yarn,2,,,,,,
+Tailoring,3,Cotton Shirt,Cotton Cloth,1,Cotton Yarn,1,,,,
+Tailoring,4,Cotton Hood,Cotton Cloth,1,Cotton Yarn,2,,,,
+Tailoring,5,Cotton Pants,Cotton Cloth,2,Cotton Yarn,1,,,,
+Tailoring,6,Cotton Swordknot,Cotton Yarn,1,Bronze Rings,1,Leather,1,,
 Tailoring,7,Cotton Net,Cotton Yarn,3,Maple Lumber,1,,,,
+Tailoring,8,Cotton Armwraps,Cotton Cloth,1,Leather,1,Cotton Yarn,1,,
+Tailoring,9,Cotton Sash,Cotton Yarn,3,,,,,,
+Tailoring,10,Cotton Tunic,Cotton Cloth,2,Leather,1,Cotton Yarn,1,,
+Tailoring,11,Cotton Sleeves,Cotton Cloth,2,Cotton Yarn,1,Animal Sinew,1,,
+Tailoring,12,Decorated Cotton Swordknot,Copper Ingot,1,Cotton Swordknot,1,,,,
+Tailoring,13,Cotton Petasos,Cotton Cloth,2,Leather,1,Animal Sinew,1,,
+Tailoring,14,Cotton Mantle,Cotton Cloth,1,Copper Ingot,1,Cotton Yarn,1,,
+Tailoring,15,Cotton Doublet,Cotton Cloth,3,Leather,2,Cotton Yarn,1,,
 Tailoring,16,Linen Yarn,Flax,3,,,,,,
 Tailoring,17,Linen Cloth,Linen Yarn,2,,,,,,
+Tailoring,18,Linen Pants,Linen Cloth,2,Linen Yarn,1,,,,
 Tailoring,19,Linen Net,Linen Yarn,3,Ash Lumber,1,,,,
+Tailoring,19,Linen Shirt,Linen Cloth,1,Linen Yarn,1,,,,
+Tailoring,20,Linen Sleeves,Linen Cloth,2,Linen Yarn,1,Deer Sinew,1,,
+Tailoring,20,Linen Swordknot,Linen Yarn,1,Iron Rings,1,Deer Leather,1,,
+Tailoring,21,Linen Petasos,Linen Cloth,2,Deer Leather,1,Deer Sinew,1,,
+Tailoring,22,Linen Doublet,Linen Cloth,3,Deer Leather,2,Cotton Yarn,1,,
+Tailoring,23,Linen Armwraps,Linen Cloth,2,Deer Leather,1,Cotton Yarn,1,,
+Tailoring,24,Fanged Linen Swordknot,Beast Fang,1,Linen Swordknot,1,,,,
+Tailoring,24,Linen Cape,Linen Cloth,3,Cotton Yarn,1,,,,
+Tailoring,25,Linen Halfrobe,Linen Cloth,3,Deer Leather,1,Linen Yarn,2,,
+Tailoring,26,Buckled Linen Petasos,Linen Cloth,2,Deer Leather,1,Deer Sinew,1,Brass Ingot,1
+Tailoring,27,Linen Sash,Linen Cloth,2,Linen Yarn,2,,,,
 Tailoring,28,Wool Yarn,Fleece,3,,,,,,
 Tailoring,29,Wool Cloth,Wool Yarn,2,,,,,,
+Tailoring,30,Wool Swordknot,Wool Yarn,1,Iron Rings,1,Wolf Leather,1,,
+Tailoring,31,Wool Hood,Wool Cloth,2,Wolf Leather,1,Wool Yarn,1,,
+Tailoring,31,Wool Mantle,Wool Cloth,1,Iron Ingot,1,Wool Yarn,1,,
+Tailoring,32,Wool Shirt,Wool Cloth,1,Wool Yarn,1,,,,
+Tailoring,33,Wool Cuffs,Wool Cloth,2,Wolf Sinew,2,,,,
 Tailoring,34,Wool Net,Wool Yarn,3,Elm Lumber,1,,,,
+Tailoring,34,Wool Pants,Wool Cloth,2,Wool Yarn,1,,,,
 Tailoring,35,Felt Cloth,Fleece,4,Natron,2,,,,
+Tailoring,35,Wool Doublet,Wool Cloth,3,Wolf Leather,2,Wool Yarn,1,,
+Tailoring,36,Felt Cuffs,Felt Cloth,2,Wool Yarn,1,Wolf Sinew,1,,
+Tailoring,37,Silvered Swordknot,Wool Yarn,1,Silver Sand,1,Fish Glue,1,,
+Tailoring,38,Felt Halfrobe,Felt Cloth,3,Wolf Leather,1,Silver Ingot,1,Wool Yarn,1
+Tailoring,39,Felt Petasos,Felt Cloth,2,Wolf Leather,1,Wolf Sinew,1,,
+Tailoring,40,Felt Mantle,Felt Cloth,2,Silver Ingot,1,Wool Yarn,1,,
 Tailoring,41,Silk Thread,Foraged Cocoon,3,,,,,,
 Tailoring,42,Sturdy Wool Net,Wool Yarn,3,Yew Lumber,1,,,,
 Tailoring,42,Velveteen Cloth,Cotton Yarn,1,Silk Thread,1,,,,
+Tailoring,43,Velveteen Shirt,Velveteen Cloth,1,Wool Yarn,1,,,,
+Tailoring,44,Velveteen Pants,Velveteen Cloth,2,Wool Yarn,1,,,,
+Tailoring,45,Velveteen Hood,Velveteen Cloth,2,Bear Leather,1,Wool Yarn,1,,
+Tailoring,46,Velveteen Swordstrap,Velveteen Cloth,1,Wool Yarn,1,Bear Leather,1,,
+Tailoring,47,Velveteen Halfrobe,Velveteen Cloth,2,Mithral Ingot,1,Bear Leather,1,Wool Yarn,1
+Tailoring,48,Velveteen Cuffs,Velveteen Cloth,2,Bear Leather,1,Animal Sinew,1,,
+Tailoring,48,Velveteen Mantle,Velveteen Cloth,2,Mithral Ingot,1,Wool Yarn,1,,
+Tailoring,49,Velveteen Sash,Velveteen Cloth,2,Wool Yarn,2,,,,
+Tailoring,50,Velveteen Sleeves,Velveteen Cloth,2,Mithral Ingot,1,Wool Yarn,1,,
+Tailoring,51,Velveteen Headdress,Velveteen Cloth,1,Bear Leather,1,Bear Sinew,1,,
+Tailoring,52,Velveteen Armwraps,Velveteen Cloth,2,Bear Leather,1,Wool Yarn,1,,
+Tailoring,53,Velveteen Jacket,Velveteen Cloth,3,Bear Leather,2,Wool Yarn,1,,
+Tailoring,54,Velveteen Justaucorps,Velveteen Cloth,2,Mithral Ingot,1,Wool Yarn,1,Beeswax,1
+Tailoring,55,Silk Swordknot,Silk Thread,1,Mithral Rings,1,Bear Leather,1,,
 Tailoring,57,Silk Cloth,Silk Thread,2,,,,,,
 Tailoring,58,Silk Net,Silk Thread,3,Walnut Lumber,1,,,,
+Tailoring,58,Silk Pants,Silk Cloth,1,Silk Thread,1,,,,
+Tailoring,59,Mithral Swordknot,Silk Thread,1,Mithral Sand,1,Fish Glue,1,,
+Tailoring,59,Silk Shirt,Silk Cloth,2,Silk Thread,1,,,,
+Tailoring,60,Silk Sash,Silk Cloth,2,Silk Thread,2,,,,
 Tailoring,60,Greater Armor Penetration Armor Kit,Silk Cloth,2,Aberrant Leather,1,Blackiron Scales,1,Major Potion of Accuracy,
 Tailoring,60,Greater Life Steal Armor Kit,Silk Cloth,2,Aberrant Blood,4,Silk Thread,1,Major Tidespan Potion,3
+Tailoring,61,Silk Coif,Silk Cloth,1,Aberrant Leather,1,Mithral Rings,1,Silk Thread,1
+Tailoring,61,Silk Gloves,Silk Cloth,2,Aberrant Leather,1,Silk Thread,1,,
+Tailoring,61,Silk Mantle,Silk Cloth,2,Electrum Ingot,1,Silk Thread,1,,
+Tailoring,62,Silk Dreadnoght,Silk Cloth,2,Aberrant Leather,1,Electrum Ingot,1,Aberrant Sinew,1
+Tailoring,62,Silk Robe,Silk Cloth,2,Aberrant Leather,1,Mithral Ingot,1,Silk Thread,1
+Tailoring,63,Silk Cape,Silk Cloth,3,Electrum Ingot,1,Silk Thread,1,,
+Tailoring,64,Silk Justaucorps,Silk Cloth,2,Aberrant Leather,1,Electrum Ingot,1,Silk Thread,1
+Tailoring,65,Electrum Swordknot,Silk Thread,1,Electrum Ingot,1,Aberrant Leather,1,,
+Tailoring,65,Silk Sleeves,Silk Cloth,2,Electrum Ingot,1,Silk Thread,1,,
+Tailoring,66,Silk Armwraps,Silk Cloth,1,Electrum Ingot,1,Aberrant Leather,1,Silk Thread,1
+Tailoring,67,Silk Overcoat,Silk Cloth,3,Aberrant Leather,1,Electrum Ingot,1,Silk Thread,1
 Tailoring,68,Shimmerweave Thread,Shimmerweed,3,,,,,,
 Tailoring,69,Shimmerweave Cloth,Shimmerweave Thread,2,,,,,,
+Tailoring,70,Shimmerweave Armwraps,Shimmerweave Cloth,2,Drake Leather,2,Shimmerweave Thread,1,,
+Tailoring,70,Shimmerweave Blinder,Shimmerweave Cloth,1,Drake Leather,1,Drake Horn,1,Drake Sinew,1
+Tailoring,70,Shimmerweave Cape,Shimmerweave Cloth,3,Raw Gold Ingot,1,Shimmerweave Thread,1,,
+Tailoring,70,Shimmerweave Coif,Shimmerweave Cloth,2,Raw Gold Ingot,1,Flawless Sapphire,1,Shimmerweave Thread,1
+Tailoring,70,Shimmerweave Dreadnought,Shimmerweave Cloth,2,Drake Leather,1,Raw Gold Ingot,1,Shimmerweave Thread,1
+Tailoring,70,Shimmerweave Gloves,Shimmerweave Cloth,2,Drake Leather,1,Raw Gold Ingot,1,Shimmerweave Thread,1
+Tailoring,70,Shimmerweave Halfrobe,Shimmerweave Cloth,2,Raw Gold Ingot,1,Flawless Sapphire,1,Shimmerweave Thread,1
 Tailoring,70,Shimmerweave Net,Shimmerweave Thread,3,Oak Lumber,1,,,,
+Tailoring,70,Shimmerweave Pants,Shimmerweave Cloth,2,Raw Gold Ingot,1,Shimmerweave Thread,1,,
+Tailoring,70,Shimmerweave Sash,Shimmerweave Cloth,2,Raw Gold Ingot,1,Shimmerweave Thread,1,,
+Tailoring,70,Shimmerweave Shirt,Shimmerweave Cloth,1,Drake Leather,1,Shimmerweave Thread,2,,
+Tailoring,70,Shimmerweave Swordknot,Shimmerweave Thread,2,Adamantine Rings,1,Drake Leather,1,,
 Tailoring,70,Major Armor Penetration Armor Kit,Shimmerweave Cloth,2,Drake Leather,1,Adamantine Scales,1,Enhanced Superior Potion of Accuracy,3
 Tailoring,70,Major Life Steal Armor Kit,Shimmerweave Cloth,2,Aberrant Blood,4,Shimmerweave Thread,1,Enhanced Superior Tidespan Potion,3
 Blacksmithing,1,Bronze Ingot,Copper Ore,2,Tin Ore,1,,,,
